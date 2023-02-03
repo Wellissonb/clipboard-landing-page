@@ -19,14 +19,10 @@
 ![](./screenshots/mobile8.PNG)
 ![](./screenshots/mobile9.PNG)
 
-
-
-
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Wellissonb/clipboard-landing-page)
+- Live Site URL: [Add live site URL here](https://wellissonb.github.io/clipboard-landing-page/)
 
 ## My process
 
