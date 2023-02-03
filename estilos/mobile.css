@@ -144,7 +144,7 @@ button:hover{
 }
 
 footer{
-    background-color: hsla(202, 11%, 66%, 0.61);
+    background-color: hsla(202, 11%, 66%, 0.164);
     width: 100%;
     margin: auto;
 
@@ -187,10 +187,6 @@ footer{
     transition-duration: .5s;
 
 }
-
-
-
-
 
 footer > ul a{
     font-weight: 400;
