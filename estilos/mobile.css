@@ -8,8 +8,11 @@
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 18px;
 
+    color: var(--Azulacinzentado);
     text-align: center;
 }
+
+
 
 :root{
 --CianoForte: hsl(171, 66%, 44%);
@@ -33,13 +36,7 @@
     height: 500px;
 }
 
-body{
-    background-color: rgb(158, 36, 228);
-}
-
 main{  
-    background-color: aliceblue;
-
     margin: auto;
     width: 430px;
     box-sizing: border-box;
@@ -67,11 +64,11 @@ h2{
 h3{
     font-size: 1.5em;
 }
-section > p{
+
+section p{
     color: var(--Azulacinzentado);
     margin: 20px 5px;
     font-weight: 400;
-
     line-height: 30px;
 
 }
@@ -93,6 +90,37 @@ button{
     font-weight: 600;
     box-shadow: 0px 3px 2px ;
 }
+
+button:hover{
+    opacity: 80%;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.grid-container1{
+    display: grid;
+    justify-content: center;
+}
+
+.grid-container2{
+    display: grid;
+    justify-content: center;
+}
+
+.icones-svg{
+    margin: 40px 0px;
+}
+
+.logo-empresas{
+    margin: auto;
+    display: block;
+    margin-bottom: 60px;
+}
+
+#google{
+    margin-top: 150px;
+}
+
 
 #ios{
     background: var(--CianoForte);
@@ -116,10 +144,11 @@ button{
 }
 
 footer{
-    background-color: var(--Azulacinzentado);
-    width: 430px;
+    background-color: hsla(202, 11%, 66%, 0.692);
+    width: 100%;
     margin: auto;
 
+  
     box-sizing: border-box;
     
     padding: 60px 80px;
@@ -129,27 +158,61 @@ footer{
     width: 60px;
 }
 
-ul{
-    list-style: none;
+.opcoes{
     display: flex;
     flex-direction: column;
     gap: 30px;
 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
     margin-bottom: 50px;
 }
 
+#logo-do-footer{
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.opcoes a{
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--Azulacinzentadoescuro);
+}
+
+.opcoes a:hover{
+    color: var(--CianoForte);
+    transition-duration: .5s;
+
+}
+
+
+
+
+
 footer > ul a{
+    font-weight: 400;
     text-decoration: none;
     color: var(--Azulacinzentadoescuro);
 }
+
+footer ul li a:hover{
+    color: var(--CianoForte);
+    transition-duration: .5s;
+}
+
 
 #redes-sociais{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
     gap: 40px;
 
 }
 
-
+.social-icon:hover{
+    fill: var(--CianoForte);
+    transition-duration: .2s;
+}

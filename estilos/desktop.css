@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1000px){
+
+    :root{
+        --CianoForte: hsl(171, 66%, 44%);
+        --Azulclaro: hsl(233, 100%, 69%);
+        
+        --Azulacinzentadoescuro: hsl(210, 10%, 33%);
+        --Azulacinzentado: hsl(201, 11%, 66%);
+        }
+
+    main{
+        width: 100%;
+
+    }
+
+    #clipboard-fundo-desktop{
+        display: block;
+        height: 400px;
+    }
+
+    #clipboard-fundo-mobile{
+        display: none;
+    }
+
+    section p {
+        width: 620px;
+        margin: 20px auto;
+
+        color: var(--Azulacinzentado);
+    }
+
+    button{
+        width: 300px;
+    }
+
+    #computer{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+  
+   
+    }
+
+    #local{
+        position: relative;
+        left: -67px;
+        width: 650px;
+    }
+
+    #conteudo{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+   
+    }
+
+    #conteudo h3{
+        text-align: left;
+    }
+    #conteudo p{
+        text-align: left;
+        width: unset;
+    }
+
+    h3{
+        font-size: 1.3em;
+        
+    }
+
+    #moveis {
+        width: 900px;
+    }
+
+    .grid-container1{
+        grid-template-columns: repeat(3, 300px);
+        gap: 70px;
+        text-align: center;
+       
+    }
+
+    .grid-item p{
+        width: 200px;
+    }   
+   
+
+    .grid-container2{
+        display: grid;
+        grid-template-columns: repeat(5, 200px);
+    }
+
+    #google{
+        margin-top: 100px;
+    }
+    
+    #vector{
+        margin-bottom: 60px;
+    }
+
+    footer{
+
+
+        width: 100%;
+        height: 180px;
+    }
+
+    #logo-do-footer{
+        margin: 0px;
+        align-self: flex-start;
+
+    }
+
+    .flex-footer{
+        display: flex;
+    }
+
+    #redes-sociais{
+        margin-top: 10px;
+    }
+
+    .flex-footer{
+        height: 90px;
+        justify-content: space-around;
+
+        gap: 60px;
+    }
+
+    .opcoes{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-self: flex-start;
+        width: 370px;
+        flex-wrap: wrap;
+
+        position: relative;
+        left: -90px;
+    }
+
+    #facebook{
+        position: relative;
+        z-index: 1;
+    }
+
+    #oi{
+        fill: black;
+    }
+
+
+
+
+
+
+
+
+
+}
